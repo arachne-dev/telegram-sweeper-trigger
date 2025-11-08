@@ -1,0 +1,22 @@
+{
+  "name": "telegram-sweeper-trigger",
+  "version": "1.0.0",
+  "description": "Telegram bot to trigger ATH sweeper on Cielo notifications",
+  "main": "telegram-trigger.js",
+  "scripts": {
+    "start": "node telegram-trigger.js",
+    "dev": "nodemon telegram-trigger.js",
+    "get-id": "node get-chat-id.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
