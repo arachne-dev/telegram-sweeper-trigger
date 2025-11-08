@@ -2,6 +2,8 @@
 
 텔레그램 기반 ATH Sweeper 자동 트리거 봇
 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/new?template=https://github.com/arachne-dev/telegram-sweeper-trigger)
+
 ## 기능
 
 - Cielo 봇의 ATH 입금 알림 감지
