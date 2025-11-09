@@ -28,7 +28,8 @@ bot.on('message', async (msg) => {
     const forwardFrom = msg.forward_from?.username || msg.forward_from?.first_name;
 
     // Cielo 봇 메시지만 처리 (직접 메시지 또는 전달된 메시지)
-    const isCieloMessage = from === 'Cielo_free_9_bot' || forwardFrom === 'Cielo_free_9_bot';
+    const cieloBots = ['Cielo_free_9_bot', 'Cielo_free_5_bot'];
+    const isCieloMessage = cieloBots.includes(from) || cieloBots.includes(forwardFrom);
 
     if (!isCieloMessage) return;
 
